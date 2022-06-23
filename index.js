@@ -56,9 +56,9 @@ app.get("/", (req, res) => {
   res.send(`Home page!!`);
 });
 
-app.get("/about", (req, res) => {
-  res.cookie("test", "123456");
-  res.send(`Hello about!!`);
+app.get("/signin", (req, res) => {
+  //res.cookie("test", "123456");
+  res.send(`Hello signin!!`);
 });
 
 app.get("/ciriculum", (req, res) => {
